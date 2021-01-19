@@ -1,3 +1,8 @@
+//Refresh on resize
+window.onresize = function () {
+  location.reload();
+};
+
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide img");
 
