@@ -5,15 +5,32 @@
           box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  background: #00ffe7;
+  background: -webkit-gradient(linear, left top, right top, from(#00ffe7), to(#006fc7));
+  background: linear-gradient(90deg, #00ffe7 0%, #006fc7 100%);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5%;
+}
+
 .carousel-container {
-  width: 60%;
+  width: 50%;
   margin: auto;
-  border: 5px solid black;
+  border: 5px solid white;
+  border-radius: 1rem;
   overflow: hidden;
   position: relative;
 }
 
-.carousel-container .carousel-slide {
+.carousel-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +38,7 @@
   height: 500px;
 }
 
-.carousel-container .carousel-slide img {
+.carousel-slide img {
   width: 100%;
   height: auto;
 }
