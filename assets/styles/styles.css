@@ -9,6 +9,8 @@
   width: 60%;
   margin: auto;
   border: 5px solid black;
+  overflow: hidden;
+  position: relative;
 }
 
 .carousel-container .carousel-slide {
@@ -22,5 +24,27 @@
 .carousel-container .carousel-slide img {
   width: 100%;
   height: auto;
+}
+
+#previousBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */
